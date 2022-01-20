@@ -20,12 +20,11 @@ This repository contains all the steps necessary for the creation of a biomedica
 
 * Python 3.6+
 * [neo4j](https://github.com/neo4j/neo4j) 
-* pytorch
-* tqdm
-* pytorch-transformers
-* transformers
-* numpy
-* matplotlib
+* [pytorch](https://github.com/pytorch/pytorch)
+* [tqdm](https://github.com/tqdm/tqdm)
+* [pytorch-transformers](https://github.com/huggingface/transformers)
+* [numpy](https://github.com/numpy/numpy)
+* [matplotlib](https://github.com/matplotlib/matplotlib)
 
 
 # Data preprocessing 
