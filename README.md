@@ -45,13 +45,13 @@ The unstructured text was divided into tokens, and each token was assigned a lab
 If the input data is in JSON format, run the following script:
 
 ```
-python load_visita_card_neo4j.py
+python source/load_visita_card_neo4j.py
 ```
 
 Otherwise if the data is stored within a dataframe, run the following script:
 
 ```
-python load_visita_ecg_neo4j.py
+python source/load_visita_ecg_neo4j.py
 ```
 
 # Disease entity normalization with Entity Linking model
@@ -82,7 +82,7 @@ The results of the entity linking task must be stored in a JSON with the followi
 By running the following script it is possible to normalize the Disease entities in the biomedical knowledge graph:
 
 ```
-python Entity_normalization.py
+python source/Entity_normalization.py
 ```
 
 # Biomedical Knowledge graph enrichment
@@ -90,12 +90,12 @@ python Entity_normalization.py
 To enrich the knowledge graph with external information obtained from DBpedia, run the following script:
 
 ```
-python enrichment.py
+python source/enrichment.py
 ```
 
 # Heterogeneous Graph Representation Learning
 
-Using cypher query, extract all nodes and links from the knowledge graph.
+Using cypher query, extract all nodes and links from the linked biomedical knowledge graph.
 
 ```
 MATCH (a)-[r]-(b)
@@ -107,3 +107,5 @@ return id(a), id(b) , type(r) , 1
 MATCH(n)
 RETURN id(n),replace(COALESCE(n.name, ""), " ", "_"), labels(n)[0]
 ```
+
+In this way it will be possible to obtain all the information necessary to be able to execute the code released in the [HNE](https://github.com/yangji9181/HNE) repository. For more details, click [here](https://github.com/yangji9181/HNE).
