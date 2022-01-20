@@ -30,13 +30,13 @@ This repository contains all the steps necessary for the creation of a biomedica
 
 # Data preprocessing 
 
-Starting from the raw data contained within relational models, for example:
+Starting from the raw data contained within relational data models, for example:
 
 ```
 Cardiopatia ischemica in follow up. Attualmente buon compenso emodinamico. Si consiglia eseguire una dieta ipocalorica. 
 ```
 
-The unstructured text was divided into tokens, and each token was assigned a label among: B-Disease, I-Disease, B-Symptom, I-Symptom, O; according to the IOB-tags scheme with the help of domain experts. The resulting file can be represented in JSON format or stored in a dataframe via the pandas library. For more details see in the `input` folder, in particular through the `Dataframe.pkl` and `graph_data.json` files.
+The unstructured text was divided into tokens, and each token was assigned a label among: B-Disease, I-Disease, B-Symptom, I-Symptom, O; according to the IOB-tags scheme with the help of domain experts. Through a fine-tunend BERT-base NER model it will be possible to predict labels for a given test set. The resulting file can be represented in JSON format or stored in a dataframe via the pandas library. For more details see in the `input` folder, in particular through the `Dataframe.pkl` and `graph_data.json` files.
 
 
 # From schema to Neo4j Biomedical Knowledge Graph
