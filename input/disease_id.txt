@@ -1,0 +1,3 @@
+﻿Ipertensione arteriosa	D006973
+Dislipidemia	D050171
+Coronaropatia	D003324
