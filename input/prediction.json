@@ -1,20 +1,20 @@
 [
     {
-        "mention": "ipertrigliceridemia",
-        "entity": "Ipertrigliceridemia",
-        "entity_number": "D015228",
-        "entity_descr": "Per ipertrigliceridemia in campo medico, si intende un quantitativo abnorme di trigliceridi nel circolo sanguigno.",
-        "entity_spec": "Endocrinologia"
-    },
-    {
-        "mention": "insufficienza mitralica severa",
-        "entity": "Insufficienza mitralica",
-        "entity_number": "D008944",
-        "entity_descr": "Per insufficienza mitralica o rigurgito mitralico, si intende il manifestarsi del reflusso di sangue dal ventricolo sinistro all'atrio sinistro, dovuto ad un'anomalia che determina un'imperfetta coaptazione dei lembi mitralici durante la sistole ventricolare.",
+        "mention": "dislipidemia",
+        "entity": "Dislipidemia",
+        "entity_number": "D050171",
+        "entity_descr": "La dislipidemia \u00e8 la variazione di quantit\u00e0 dei lipidi circolanti nel sangue, in particolare del colesterolo, dei trigliceridi, dei fosfolipidi, assai pi\u00f9 frequentemente in aumento (ipercolesterolemia, ipertrigliceridemia, iperfosfolipidemia, pi\u00f9 raramente in diminuzione. \u00c8 una qualsiasi condizione clinica nella quale sono presenti nel sangue elevate concentrazioni di lipidi. Poich\u00e9 il termine comprende non una, ma svariate patologie, \u00e8 pi\u00f9 corretto parlare di dislipidemie al plurale, giacch\u00e9 le varie forme possono avere origine diversa, trattamenti diversi e soprattutto conseguenze diverse sulla salute dell'individuo affetto. Le dislipidemie sono uno dei principali fattori di rischio cardiovascolare.",
         "entity_spec": "Cardiologia"
     },
     {
-        "mention": "ipertensione arteriosa grado II",
+        "mention": "cardiopatia ischemica",
+        "entity": "Coronaropatia",
+        "entity_number": "D003324",
+        "entity_descr": "Per coronaropatia o malattia coronarica si intende una qualsiasi alterazione, anatomica o funzionale, delle arterie coronarie, cio\u00e8 dei vasi sanguigni che portano sangue al muscolo cardiaco.",
+        "entity_spec": "Cardiochirurgia"
+    },
+    {
+        "mention": "iperteso",
         "entity": "Ipertensione arteriosa",
         "entity_number": "D006973",
         "entity_descr": "L'ipertensione arteriosa, chiamata spesso colloquialmente solo ipertensione, \u00e8 una condizione clinica in cui la pressione del sangue nelle arterie della circolazione sistemica risulta elevata. Ci\u00f2 comporta un aumento di lavoro per il cuore. La pressione arteriosa \u00e8 riassunta da due misure, sistolica e diastolica, che dipendono dal fatto che il muscolo cardiaco si contrae (sistole e si rilassa (diastole tra un battito e l'altro. La pressione sanguigna normale a riposo \u00e8 compresa tra i 110 e i 140 mmHg di sistolica e tra i 60 e i 90 mmHg di diastolica. Viene considerata un'ipertensione se vi \u00e8 una pressione frequentemente pari o superiore ai 140/90 mmHg. L'ipertensione viene classificata come primaria (essenziale o come secondaria. Circa il 90-95% dei casi sono classificati come \"ipertensione primaria\", il che significa che vi \u00e8 pressione alta senza evidenti cause mediche di base. Il restante 5-10% dei casi, classificati come \"ipertensione secondaria\" sono causati da altre malattie che colpiscono i reni, le arterie, il cuore o il sistema endocrino. L'ipertensione \u00e8 un fattore di rischio per l'ictus, per l'infarto del miocardio, per l'insufficienza cardiaca, per gli aneurismi delle arterie (es. aneurisma aortico, per la malattia arteriosa periferica ed \u00e8 una causa della malattia renale cronica. Anche moderate elevazioni della pressione sanguigna arteriosa vengono associate a una riduzione dell'aspettativa di vita. Cambiamenti nella dieta e nello stile di vita sono in grado di migliorare sensibilmente il controllo della pressione sanguigna e di ridurre il rischio di complicazioni per la salute. Tuttavia il trattamento farmacologico \u00e8 spesso necessario in persone per le quali i cambiamenti dello stile di vita risultino inefficaci o insufficienti.",
