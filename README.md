@@ -41,7 +41,7 @@ The unstructured text was divided into tokens, and each token was assigned a lab
 
 # From schema to Neo4j Biomedical Knowledge Graph
 
-![model](images/schema_grafo.drawio (1).png)
+![model](images/graph_schema.png)
 
 If the input data is in JSON format, run the following script:
 
